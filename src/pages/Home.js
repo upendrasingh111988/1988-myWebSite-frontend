@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <main style={{ padding: "20px" }}>
-        <h2>Welcome to My Website</h2>
+        <h2>Welcome to Web technology.</h2>
         <p>This is the Home page.</p>
       </main>
       <Footer />
