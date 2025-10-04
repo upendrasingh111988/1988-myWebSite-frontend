@@ -7,12 +7,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <nav style={{ margin: "20px" }}>
-        <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
-        <Link to="/about" style={{ marginRight: "10px" }}>About Us</Link>
-        <Link to="/contact">Contact Us</Link>
-      </nav>
-
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

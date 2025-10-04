@@ -1,12 +1,16 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-function Home() {
+export default function Home() {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Welcome to My Website</h1>
-      <h1>Welcome::</h1>
-    
+    <div>
+      <Header />
+      <main style={{ padding: "20px" }}>
+        <h2>Welcome to My Website</h2>
+        <p>This is the Home page.</p>
+      </main>
+      <Footer />
     </div>
   );
 }
-export default Home;
